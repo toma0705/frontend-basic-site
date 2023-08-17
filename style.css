@@ -43,6 +43,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
   width: 100%;
 }
 
@@ -56,6 +57,7 @@ img {
 
 @media (max-width: 750px) {
   .header {
+    margin-top: 60px;
     height: 60px;
   }
 
@@ -73,6 +75,7 @@ img {
   align-items: center;
   padding: 94px 40px;
   position: relative;
+  margin-top: 80px;
 }
 
 .hero::after {
