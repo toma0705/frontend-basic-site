@@ -68,7 +68,7 @@ img {
 
 /*hero*/
 .hero {
-  background-image: url(./img/hero.png);
+  background-image: url("./img/hero.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -94,6 +94,7 @@ img {
   display: flex;
   justify-content: flex-end;
   z-index: 1;
+  margin-top: 100px;
 }
 
 .hero-texts {
